@@ -1,0 +1,198 @@
+
+body{
+    font-family: 'Jost', sans-serif;
+    font-family: 'Playfair', serif;
+    margin:0 5%;
+}
+.navbar{
+    margin-top: 20px;
+    height: 70px;
+    position: sticky;
+    top:0;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navlink{
+    display: flex;
+}
+.link{
+    
+    margin-left:20px;
+    font-size: 1.5em;
+    color: #951a1d;
+    text-decoration: none;
+    transition:0.3s ease-in-out all;
+}
+
+.link:hover{
+    color:#f15b2b;
+}
+
+.coverpic{
+    width: 100%;
+    height: 40vh;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.glass{
+    margin-left: 20px;
+}
+
+#find{
+    width:30%;
+    padding:0px 0px 0px 10px;
+    border: 1px solid #951a1d;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+#find::placeholder{
+    color: #951a1d;
+    opacity: 0.2;
+    font-weight: 500;
+}
+.recipes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bigcard{
+    margin:50px 10px 0px 10px;
+    flex-basis: 250px;
+}
+
+.card{
+    width: 100%;
+    height: 300px;
+    border-radius: 0.25rem;   
+}
+
+.cardlink{
+    text-decoration: none;
+    color: black;
+}
+.cardlink p{
+    margin-bottom: 70px;
+    margin-top: 0.25rem;
+    line-height: 1;
+}
+
+.box1{
+    display:flex;
+}
+
+.leftbox1{
+    flex-basis:30%;
+}
+
+.pic{
+    width:100%;
+    height: fit-content;
+}
+.rightbox1{
+    flex-basis:70%;
+    margin-left: 10px;
+}
+
+.header{
+    font-size: 2em;
+    color: #951a1d;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.icon{
+    text-align: center;
+}
+
+.icon i{
+    color:#951a1d;
+    font-size: 2em;
+}
+
+.tag{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top:20px;
+}
+
+.tag a{
+    color: white;
+    background-color: #951a1d;
+    padding: 0.5rem 0.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition:0.3s ease-in-out all;
+}
+
+.tag a:hover{
+    background-color: #f15b2b;
+}
+
+.box2{
+    display: flex;
+}
+
+.leftbox2{
+    width: 60%;
+}
+
+.leftbox2 h3{
+    color:#951a1d;
+}
+.rightbox2{
+    padding-left: 10%;
+    width: 30%;
+    float: left;
+}
+
+.footer{
+    background-color:black;
+    color:white;
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
+}
+
+.tagbox{
+    height:545px;
+}
+
+.type{
+    padding: 50px;
+    background-color: #951a1d;
+    float: left;
+    width:20%;
+    margin-left: 95px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #00000035;
+    transition:0.3s ease-in-out all;
+}
+
+.type a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.type:hover{
+    background-color: #f15b2b;
+}
+
+.bengalirecipes{
+    height: 525px;
+}
